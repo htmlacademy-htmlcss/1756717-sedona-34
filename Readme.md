@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Мария Елистратова](https://up.htmlacademy.ru/htmlcss/34/user/1756717).
-* Наставник: `Неизвестно`.
+* Наставник: [Магомед Кандаев](https://htmlacademy.ru/profile/magomedkandaev).
 
 ---
 

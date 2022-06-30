@@ -66,7 +66,7 @@
                   </a>
                 </li>
                 <li class="breadcrumbs-item">
-                  <a class="breadcrumbs-link">Гостиницы</a>
+                  <a class="breadcrumbs-link breadcrumbs-link-current">Гостиницы</a>
                 </li>
               </ul>
             </header>
@@ -107,8 +107,29 @@
               </fieldset>
               <fieldset class="price">
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-                <div>
-                  <!--Здесь будет ползунок-->
+                <div class="range">
+                  <div class="range-wrapper-inputs">
+                    <div class="range-column range-column-from">
+                      <label class="visually-hidden" for="range-input-from">Стоимость от.</label>
+                      <input class="catalog-filter-text range-input range-input-from" type="number" name="range-input-from"
+                        id="range-input-from" value="0" placeholder="0">
+                    </div>
+                    <div class="range-column range-column-to">
+                      <label class="visually-hidden" for="range-input-to">Стоимость до.</label>
+                      <input class="catalog-filter-text range-input range-input-to" type="number" name="range-input-to"
+                        id="range-input-to" value="9000" placeholder="9000">
+                    </div>
+                  </div>
+                  <div class="range-scale">
+                    <div class="range-bar" style="left: 0; width: 228px">
+                      <button class="range-toggle toggle-min" type="button">
+                        <span class="visually-hidden">Изменить минимальную цену.</span>
+                      </button>
+                      <button class="range-toggle toggle-max" type="button">
+                        <span class="visually-hidden">Изменить максимальную цену.</span>
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </fieldset>
               <div class="button-columns">

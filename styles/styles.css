@@ -845,6 +845,12 @@
   line-height: 21px;
   color: #ffffff;
   background-color: transparent;
+  cursor: pointer;
+  appearance: textfield;
+}
+
+.range-input::placeholder {
+  color: #ffffff;
 }
 
 .range-input::-webkit-outer-spin-button,
@@ -862,6 +868,22 @@
   border: 2px solid #ffffff;
   border-left-color: transparent;
   border-radius: 0 4px 4px 0;
+}
+
+.range-input:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.range-input:focus {
+  box-shadow: 0 0 0 3px #81b3d2,
+    inset 0 0 0 3px #81b3d2;
+  outline: none;
+}
+
+.range-input:not(:placeholder-shown) {
+  background-color: #756257;
+  box-shadow: none;
+  outline: none;
 }
 
 .button-columns {

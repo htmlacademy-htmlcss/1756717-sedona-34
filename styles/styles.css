@@ -1040,6 +1040,8 @@ img {
 }
 
 .catalog-filter-text {
+  display: block;
+  max-width: 250px;
   font-size: 18px;
   line-height: 21px;
 }
